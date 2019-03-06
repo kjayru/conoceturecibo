@@ -533,7 +533,7 @@
 				.section3{
 					width: 100%;
 					height: 100%;
-					background: #f6f6f6;
+					background: #f3f3f3;
 					//background: url("#{$path}/pg1_bg_section2.jpg") no-repeat center top;
 					padding: 50px 0;
 					background-size: cover;
@@ -920,11 +920,11 @@
 							}
 							span{
 								font: normal 300 em(16) $font1;
-								padding-bottom: 90px;
+								padding-bottom: 30px;
 								display:block;
 								text-align: center;
 								@include to(tablet) {
-									padding-bottom: 40px;
+									padding-bottom: 0px;
 								}
 								@include to(movil) {
 									font-size: em(14);
@@ -943,7 +943,7 @@
 							padding: 0px 20px 0px 20px;
 						}
 						@include to(tablet) {
-							padding-top: 40px;
+							padding-top: 20px;
 						}
 
 						.list{
@@ -966,16 +966,16 @@
 
 							.item{
 								width: 305px;
-								height: 310px;
+								//height: 310px;
 								position: relative;
 								background: white;
 								top: 0;
 								@include redondeado(3px, 3px, 3px, 3px);
-								box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.12);
+								box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
 								text-align:center;
 								@include transicion(all,0.1s,ease-out,0s);
 								@include to(tablet) {
-									margin: 0 auto 90px auto;
+									margin: 0 auto 40px auto;
 									&:last-child{
 										margin: 0 auto 0px auto;
 									}
@@ -990,10 +990,11 @@
 									}
 								}
 								.image{
-									position: absolute;
-									left: 	0;
-									right: 	0;
-									top: 	-50px;
+									padding-top: 25px;
+									//position: absolute;
+									//left: 	0;
+									//right: 	0;
+									//top: 	-50px;
 									img{
 										//width:114px;
 										//margin-bottom:16px;
@@ -1002,7 +1003,7 @@
 								}
 								.title{									
 									color: #000;
-									padding-top: 85px;
+									padding-top: 18px;
 									margin-bottom:18px;
 									h3{
 										margin: 0 auto;
@@ -1022,12 +1023,13 @@
 									width: 260px;
 									padding: 0 20px;
 									//height: 76px;
-									height: 126px;
+									height: 110px;
 									margin: 0 auto;
 									//margin-bottom: 	53px;
 									//padding: 16px 20px 0 20px;
 								}
 								.link{
+									padding-bottom: 25px;
 									a{
 										font: normal 300 em(16) $font1;
 										color: 	$color_b9;	

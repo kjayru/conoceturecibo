@@ -4350,7 +4350,7 @@ html.fp-enabled,
     .layout__main .page1__main .section3 {
       width: 100%;
       height: 100%;
-      background: #f6f6f6;
+      background: #f3f3f3;
       padding: 50px 0;
       background-size: cover;
       position: relative; }
@@ -4531,12 +4531,12 @@ html.fp-enabled,
               font-size: 1.3125em; } }
         .layout__main .page1__main .section4__header .title span {
           font: normal 300 1em "Roboto";
-          padding-bottom: 90px;
+          padding-bottom: 30px;
           display: block;
           text-align: center; }
           @media screen and (max-width: 768px) {
             .layout__main .page1__main .section4__header .title span {
-              padding-bottom: 40px; } }
+              padding-bottom: 0px; } }
           @media screen and (max-width: 480px) {
             .layout__main .page1__main .section4__header .title span {
               font-size: 0.875em; } }
@@ -4550,7 +4550,7 @@ html.fp-enabled,
             padding: 0px 20px 0px 20px; } }
         @media screen and (max-width: 768px) {
           .layout__main .page1__main .section4__main {
-            padding-top: 40px; } }
+            padding-top: 20px; } }
         .layout__main .page1__main .section4__main .list {
           padding: 0 0 0px 0;
           text-align: center;
@@ -4578,15 +4578,14 @@ html.fp-enabled,
             color: #da272c; }
           .layout__main .page1__main .section4__main .list .item {
             width: 305px;
-            height: 310px;
             position: relative;
             background: white;
             top: 0;
             -webkit-border-radius: 3px 3px 3px 3px;
             -moz-border-radius: 3px 3px 3px 3px;
             border-radius: 3px 3px 3px 3px;
-            -webkit-box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.12);
-            box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.12);
+            -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
             text-align: center;
             -webkit-transition: all 0.1s ease-out 0s;
             -moz-transition: all 0.1s ease-out 0s;
@@ -4595,7 +4594,7 @@ html.fp-enabled,
             transition: all 0.1s ease-out 0s; }
             @media screen and (max-width: 768px) {
               .layout__main .page1__main .section4__main .list .item {
-                margin: 0 auto 90px auto; }
+                margin: 0 auto 40px auto; }
                 .layout__main .page1__main .section4__main .list .item:last-child {
                   margin: 0 auto 0px auto; } }
             .layout__main .page1__main .section4__main .list .item:hover {
@@ -4608,15 +4607,12 @@ html.fp-enabled,
             .layout__main .page1__main .section4__main .list .item .type:before {
               display: none !important; }
             .layout__main .page1__main .section4__main .list .item .image {
-              position: absolute;
-              left: 0;
-              right: 0;
-              top: -50px; }
+              padding-top: 25px; }
               .layout__main .page1__main .section4__main .list .item .image img {
                 margin: auto; }
             .layout__main .page1__main .section4__main .list .item .title {
               color: #000;
-              padding-top: 85px;
+              padding-top: 18px;
               margin-bottom: 18px; }
               .layout__main .page1__main .section4__main .list .item .title h3 {
                 margin: 0 auto;
@@ -4631,29 +4627,31 @@ html.fp-enabled,
               color: #000;
               width: 260px;
               padding: 0 20px;
-              height: 126px;
+              height: 110px;
               margin: 0 auto; }
-            .layout__main .page1__main .section4__main .list .item .link a {
-              font: normal 300 1em "Roboto";
-              color: #2197ae;
-              position: relative; }
-              .layout__main .page1__main .section4__main .list .item .link a:before {
-                content: "\f105";
-                display: inline-block;
-                margin-right: 0px;
-                font: normal normal normal 14px/1 FontAwesome;
-                font-size: inherit;
-                text-rendering: auto;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                -webkit-transform: translate(0, 0);
-                -ms-transform: translate(0, 0);
-                transform: translate(0, 0);
-                font-size: 16px;
+            .layout__main .page1__main .section4__main .list .item .link {
+              padding-bottom: 25px; }
+              .layout__main .page1__main .section4__main .list .item .link a {
+                font: normal 300 1em "Roboto";
                 color: #2197ae;
-                position: absolute;
-                top: 1px;
-                right: -12px; }
+                position: relative; }
+                .layout__main .page1__main .section4__main .list .item .link a:before {
+                  content: "\f105";
+                  display: inline-block;
+                  margin-right: 0px;
+                  font: normal normal normal 14px/1 FontAwesome;
+                  font-size: inherit;
+                  text-rendering: auto;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  -webkit-transform: translate(0, 0);
+                  -ms-transform: translate(0, 0);
+                  transform: translate(0, 0);
+                  font-size: 16px;
+                  color: #2197ae;
+                  position: absolute;
+                  top: 1px;
+                  right: -12px; }
     .layout__main .page1__main .section5 {
       width: 100%;
       height: 100%;
