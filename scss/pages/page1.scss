@@ -4,10 +4,14 @@
 		//z-index: 20 !important;
 		//position: fixed;
 	    .section1{
-	    	background:$color_b6;
-				height: 50px;
+	    	//background:$color_b6;
+				//height: 50px;
+				//padding: 7px 0;
+				background: #EF3829 !important;
 				position: fixed;
 				z-index: 20;
+				top: 0;
+				left: 0;
 				width: 100%;
 	      &__align{
 	        max-width: 1250px;
@@ -18,7 +22,7 @@
 	          max-width:  100%;
 	          height: auto;
 	          line-height: normal ;
-	          padding: 0 0px 0 20px
+	          padding: 0 0px 0 10px
 	          //text-align: center;
 
 	        }
@@ -26,8 +30,8 @@
 	          span{
 	            font: normal 400 em(16) $font1;
 	            width: 	50%;
-	            height:   50px;
-	        		line-height:  50px;
+	            height:   56px;
+	        	line-height:  56px;
 	            display: 	inline-block;	
 	            color:  $color_t1;
 	            /*&:first-child{
@@ -48,7 +52,7 @@
 	            }*/
 	            
 	            img{
-		            width:  62px;
+		            width:  69px;
 		            margin-right: 8px;
 		            vertical-align: middle;
 		            @include to(tablet-h) {
@@ -57,6 +61,7 @@
 		        	}
 		        	section#navM{
 		        		width: 24px;
+		        		padding-top: 6px;
 		        		display: none;
 		        		vertical-align: middle;
 		        		div{
@@ -116,7 +121,7 @@
 							  		transition: all ease 0.25s;
 			        		}
 			        		&:before{
-			        			content: "\f106";
+			        			content: "\f107";
 			        			-webkit-transition: all ease 0.25s;
 							  		-o-transition: all ease 0.25s;
 							  		transition: all ease 0.25s;
@@ -134,7 +139,7 @@
 								    font-size: 25px;
 								    color: $color_t1;
 								    position: absolute;
-								    top:  11px;
+								    top:  14px;
 								    right: 22px;
 				        	}
 			        	}
@@ -157,6 +162,7 @@
 		          @include to(movil-h) {
 		            font-size: em(14);
 		          }
+  
 	          }
 	        }  
 	      } 
@@ -192,9 +198,9 @@
 						box-sizing: border-box;
 						margin: auto 0 auto auto;
 						@include to(movil-h) {
-			        max-width: 100%;
-			        height: 100%;
-			        padding: 50px 0 25px;
+				        max-width: 100%;
+				        height: 100%;
+				        padding: 50px 0 25px;
 			       }
 						  &__enlace{
 						   	color: #abaeaf;
@@ -336,7 +342,7 @@
 				}
 				.section2{
 					width: 100%;
-					margin-top: 46px;
+					margin-top: 54px;
 					height: 100%;
 					background: $color_b1;
 					background: url("#{$path}/pg1_bg_section2.jpg") no-repeat center top;
@@ -2198,13 +2204,16 @@
 	}
 
 	&__footer{
+		width: 100%;
+		background: #212121;
+		padding: 20px 0;
+		position: relative;
+		z-index: 5;
 	    .section1{
 	      &__align{
 	        max-width: 1250px;
 	        width:  100%;
 	        margin: auto;
-	        height:   53px;
-	        line-height:  53px;
 	        background-color: #212121;
 	        @include to(tablet-h) {
 	          max-width:  100%;
@@ -2223,14 +2232,15 @@
 
 	        }
 	        .section1__footer{
+
 	          span{
-	            font: normal 400 em(15) $font1;
-	            width: 	50%;
+	            font: normal 300 em(14) $font1;
+	            width: 	35%;
 	            display: 	inline-block;	
 	            color:  $color_t1;
 	            vertical-align: middle;
 	            img{
-		            width:  62px;
+		            width:  58px;
 		            //height: 25px;
 		            margin-right: 8px;
 		            vertical-align: baseline;
@@ -2241,6 +2251,12 @@
 		              display: 	block;
 		              margin: 	0 auto 4px auto
 		            } 
+		            @include to(movil-h) {
+		              margin: 	0 auto;
+		            } 
+		        }
+		        &:nth-of-type(2){
+		        	width: 65%;
 		        }
 		        ul{
 		        	text-align: right;
@@ -2249,13 +2265,15 @@
 		              
 		            }	
 		        	li{
-		        		display: inline-block;	
+		        		display: inline-block;
+		        		padding: 5px 10px;
 		        		a{
 		        			color: 	$color_b9;
 		        		}
 		        		@include to(movil-h) {
-		              display: block;
-		              margin: 3px auto;
+			              display: block;
+			              //margin: 3px auto;
+
 		              
 		            }
 		        	}
@@ -2264,6 +2282,9 @@
 	              display:  block; 
 	              width: 	100%;
 	              margin-bottom: 4px;
+	              &:nth-of-type(2){
+			        width: 100%;
+			      }
 
 	            }
 	            @include to(movil-h) {

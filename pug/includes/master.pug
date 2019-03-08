@@ -1,7 +1,7 @@
 include mixin
 
-- var path = "https://static.claro.com.pe/landings/havas/conoce_tu_recibo/";
-//- var path = "";
+//- var path = "https://static.claro.com.pe/landings/havas/conoce_tu_recibo/";
+- var path = "";
 
 block vars
 doctype
@@ -70,11 +70,16 @@ html(lang='es')
 							span 
 								ul
 									li
-										a(href="#" target="_blank") Sitio Institucional    
-									li 
-										a(href="#" target="_blank") Legal y regulatorio   
-									li 
-										a(href="#" target="_blank") Sistema SIRD
+										a(href='http://www.claro.com.pe/wps/portal/pe/sc/institucional', target='_blank') Sitio Institucional
+									li
+										a(href='http://www.claro.com.pe/wps/portal/pe/sc/personas/legal-y-regulatorio', target='_blank') Legal y regulatorio
+									li
+										a(href='http://www.claro.com.pe/wps/portal/pe/sc/personas/legal-y-regulatorio', target='_blank') Información a Abonados y Usuarios
+									li
+										a(href='http://www2.osiptel.gob.pe/Devoluciones/Principal.aspx', target='_blank') Sistema SIRD
+
+									
+
 
 
 		script(type='text/javascript' src=path+'js/library/vue.js')
